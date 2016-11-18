@@ -7,30 +7,28 @@ width: 100%;
 
 #header {
 display: flex;
-flex-direction: column;
-flex-grow: 1;
-background-color: lightgray;
-
-}
-
-#headertext {
-    flex-grow: 1;
-    background-color: yellow;
-    align-items: center;
+flex-direction: row;
+flex-grow: 0;
+margin-bottom: 0;
 }
 
 #links {
-   flex-grow: 20;
-   display: flex;
-   flex-direction: row; 
-   background-color: white;
-   justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: black;
 }
 
 #links a {
     margin-top: auto;
     margin-bottom: auto;
-    
+    text-align: center;
+}
+
+#picture {
+    flex-grow: 0;
+    align-items: right;
 }
 
 #headertext h1 {
@@ -40,7 +38,13 @@ background-color: lightgray;
 }
 
 #content {
-flex-grow: 5;
-background-color: black;
+flex-grow: 1;
+background-color: gray;
+margin-top: -5px;
+}
+
+.rick_astley {
+    margin: 0;
+    padding: 0;
 }
 
