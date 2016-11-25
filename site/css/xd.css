@@ -1,8 +1,14 @@
+body {
+    background-color: black;
+}
+
 #site {
 display: flex;
 flex-direction: column;
 height: 98vh;
 width: 100%;
+margin: auto;
+max-width: 1280px;
 }
 
 #header {
@@ -19,14 +25,19 @@ margin-bottom: 0;
     background-color: black;
 }
 
-#links a {
+#links a, #links a:link, #links a:visited {
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    background-size: 50px 50px;
 }
 
 #picture {
     align-items: right;
+    background-color: black;
 }
 
 #headertext h1 {
@@ -36,11 +47,13 @@ margin-bottom: 0;
 }
 
 #content {
-margin-top: -5px;
 flex-grow: 1;
+
 background-repeat: no-repeat;
 background-size: 50%;
-background-image: url("https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif")
+background-position: center;
+background-image: url("https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif");
+background-color: black;
 }
 
 .rick_astley {
