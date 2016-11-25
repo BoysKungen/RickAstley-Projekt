@@ -20,6 +20,8 @@ border-right: 1px solid dimgray;
 display: flex;
 flex-direction: row;
 margin-bottom: 0;
+flex-grow: 0;
+flex-shrink: 0;
 }
 
 #links {
@@ -73,13 +75,75 @@ margin-bottom: 0;
     font-family: sans-serif;
 }
 
-#content {
-flex-grow: 1;
-}
-
 .rick_astley {
     margin: 0;
     padding: 0;
+}
+
+#contentrow_1 img{
+    height: 100%;
+    width: 100%;
+}
+
+#contentrow_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+#livestream {
+    margin: 2px;
+}
+
+#todayshow_1 {
+    margin: 2px;
+}
+
+#contentrow_2 #livestream a, #livestream a:link, #livestream a:visited p{
+    color: white;
+    text-decoration: none;
+    margin-top: -104px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+#contentrow_2 #todayshow_1 a, #todayshow_1 a:link, #todayshow_1 a:visited p{
+    color: white;
+    text-decoration: none;
+    margin-top: -104px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#contentrow_2 #todayshow_2 a, #todayshow_2 a:link, #todayshow_2 a:visited p{
+    color: white;
+    text-decoration: none;
+    margin-top: -104px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+    width: 100%;
 }
 
 
