@@ -1,0 +1,317 @@
+/* ---------------------------MAIN----------------------------- */
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    position: fixed; 
+    border-bottom: solid 1px gray;
+    background-color: black;   
+    z-index: 1;
+    height: 100px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 960px;
+}
+
+.home {
+    width: 300px;
+    height: 100px;
+    opacity: 0.4;
+}
+
+#links a, #links a:link, #links a:visited .graydesign {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color:   black;
+    background-size: 50px 50px;
+    padding: 20px;
+    border: 8px outset black;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px; 
+
+}
+
+#links a:hover, #links a:active, .graydesign  {
+    font-size: 35px;
+    transition: .2s;
+
+}
+
+
+
+/* -------------------------------INDEX------------------------------------ */
+
+#indexsite {
+    display: flex;
+    flex-direction: column;
+    height: 1825px;
+    width: 100%;
+    margin: auto;
+    max-width: 1280px;
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+}
+
+#contentrow_1 img{
+    height: 100%;
+    width: 100%;
+}
+#content {
+    margin-top: 100px;
+}
+
+
+#contentrow_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+#livestream {
+    margin: 2px;
+}
+
+#todayshow_1 {
+    margin: 2px;
+}
+
+#contentrow_2 #livestream a, #livestream a:link, #livestream a:visited p{
+    color: white;
+    text-decoration: none;
+    margin-top: -104px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#livestream a:hover, #livestream a:active, p {
+    opacity: 1;
+}
+
+
+#contentrow_2 #todayshow_1 a, #todayshow_1 a:link, #todayshow_1 a:visited p{
+    color: white;
+    text-decoration: none;
+    margin-top: -104px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#contentrow_2 #todayshow_2 a, #todayshow_2 a:link, #todayshow_2 a:visited p{
+    color: white;
+    text-decoration: none;
+    margin-top: -104px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#contentrow_3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Biography_h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 50px; 
+    border-top: 1px solid gray;  
+    padding-top: 50px;
+}
+
+#contentrow_3 .Biography_p {
+    color: white;
+    font-family: sans-serif;
+    margin-right: 100px;
+}
+
+#contentrow_3 .Biography_img {
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+}
+
+#contentrow_biography p {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* ----------------------------MERCHANDISE------------------------------- */
+
+#merchsite {
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    width: 100%;
+    margin: auto;
+    max-width: 1280px;
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+}
+
+    #itemlist {
+        display: flex;
+    flex-direction: column;
+}
+
+.items {
+    
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+.t-shirt {
+    height: 75%;
+    width: 45%;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.mug {
+    height: 65%;
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Price {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+/* --------------------TEXTS---------------------- */
+
+#textsite {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    max-width: 1280px;
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+}
+
+#lorem {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lorem p {
+    color: white;
+}
+
+#lorem h1 {
+    color: white;
+}
+
+
+/* ------------------------------ERROR----------------------------- */
+
+#errorsite {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    max-width: 1280px;
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+}
+
+#gif {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif");
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    
+}
+
+#gif h1 {
+    color: blue;
+    font-family: serif;
+    margin-left: 20px;
+}
+
+/* ---------------------------------END------------------------------ */ 
