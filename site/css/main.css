@@ -7,6 +7,18 @@ body {
     border: 0;
 }
 
+#headerhome a, #headerhome a:link, #headerhome a:visited .gif {
+    opacity: 0;
+    height: 100px;
+    width: 300px;
+}
+
+#headerhome a:hover, #headerhome a:active, .gif {
+    opacity: 1;
+    height: 100px;
+    width: 300px;
+}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -21,13 +33,11 @@ body {
 
 #links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 960px;
+    width: 930px;
 }
 
 .home {
@@ -58,8 +68,30 @@ body {
 
 }
 
+#header p {
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    margin-top: -80px;
+    margin-left: 10px;
+    text-align: center;
+}
 
 
+#social-media {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+.t-logo {
+    height: 28px;
+    width: 28px;
+}
 /* -------------------------------INDEX------------------------------------ */
 
 #indexsite {
@@ -186,31 +218,43 @@ body {
 #merchsite {
     display: flex;
     flex-direction: column;
-    height: 2000px;
+    height: 1600px;
     width: 100%;
     margin: auto;
     max-width: 1280px;
     border-left: 1px solid dimgray;
     border-right: 1px solid dimgray;
+
 }
 
-    #itemlist {
-        display: flex;
+#itemlists {
+    background-image: url("https://www.moshville.co.uk/wordpress/wp-content/uploads/2016/11/Rick-Astley-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.75;
+    margin-top: 100px;
+    align-items: left;
+    display: flex;
     flex-direction: column;
+}
+
+.itemcontent {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    opacity: 0.7;
+    padding: 30px;
 }
 
 .items {
     
     display: flex;
     flex-direction: row;
-    background-color: white;
     width: 800px;
     height: 500px;
-    margin: auto;
     margin-top: 50px;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 a, a:link, a:visited {
@@ -219,25 +263,13 @@ a, a:link, a:visited {
 }
 
 
-.t-shirt {
+.itempic {
     height: 75%;
     width: 45%;
     margin-right: 50px;
     margin-left: 20px;
 }
-.mug {
-    height: 65%;
-    width: 50%;
-    margin-right: 20px;
-    margin-left: 20px;
-}
 
-.Price {
-    text-align: center;
-    font-size: 70px;
-    color: red;
-    font-family: sans-serif;
-}
 
 .info {
     display: flex;
@@ -246,8 +278,19 @@ a, a:link, a:visited {
 
 .Title {
     text-align: center;
-    font-size: 40px;
-    color: black;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.iteminfo {
+    color: white;
+}
+
+.Price {
+    text-align: center;
+    font-size: 70px;
+    color: red;
     font-family: sans-serif;
 }
 
